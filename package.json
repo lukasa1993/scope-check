@@ -1,0 +1,26 @@
+{
+  "name": "@lukasa1993/scope-check",
+  "version": "2.6.0",
+  "private": false,
+  "description": "scope chek for expressjs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasa1993/scope-check.git"
+  },
+  "keywords": [
+    "scope",
+    "expressjs",
+    "oauth2"
+  ],
+  "author": "lukasa1993",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lukasa1993/scope-check/issues"
+  },
+  "homepage": "https://github.com/lukasa1993/scope-check#readme"
+}
