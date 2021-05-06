@@ -10,7 +10,10 @@ export default function (options = {}) {
   const scopes = [...new Set(deepFlatten([scope, options.scopes]).filter(x => !!x))];
 
   return function (req, res, next) {
-    if (scopes.indexOf(req.get(header))) {
+    if (options.debug === true) {
+      console.log(scopes, req.get(header), scopes.indexOf(req.get(header)) > -1);
+    }
+    if (scopes.indexOf(req.get(header)) > -1) {
       next();
     } else {
       res.sendStatus(status);

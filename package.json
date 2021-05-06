@@ -1,6 +1,6 @@
 {
   "name": "@lukasa1993/scope-check",
-  "version": "2.6.0",
+  "version": "3.0.0",
   "private": false,
   "description": "scope chek for expressjs",
   "main": "index.js",
